@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int a, b;
+    cout<<"insira numA:"; cin>>a;
+    cout<<"insira numB"; cin>>b;
+    if (a==b)
+        cout<<"nums iguais...";
+    else
+        cout<<"nums dif...";
+    return 0;
+}
